@@ -2,9 +2,9 @@
 
 class Config{
     public function connect(){
-        $hostname = "db-mysql-do-user-16392965-0.c.db.ondigitalocean.com";
-        $username = "doadmin";
-        $password = "AVNS_3ApFwE4pJn3u0biX34x";
+        $hostname = "152.42.212.241";
+        $username = "root";
+        $password = "VID#2023*it";
         $dbname = "chatapp";
 
         $conn = mysqli_connect($hostname, $username, $password, $dbname);
